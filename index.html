@@ -541,17 +541,17 @@
                                  <li> <strong>Email:</strong>jinhao.xie@gmail.com</li>
                                  <li> <strong>Phone:</strong>647-557-3792</li>
                               </ul>
+                              <script>
+                                 function onSubmit(token) {
+                                   document.getElementById("demo-form").submit();
+                                 }
+                               </script>
+         
+                              <button class="g-recaptcha" 
+                              data-sitekey="6Lfn5aYZAAAAAK0NBKZ1yRg-V1t1jgycjBNTgGjf" 
+                              data-callback='onSubmit' 
+                              data-action='submit'>Submit</button>
                            </div>
-                           <script>
-                              function onSubmit(token) {
-                                document.getElementById("demo-form").submit();
-                              }
-                            </script>
-      
-                           <button class="g-recaptcha" 
-                           data-sitekey="6Lfn5aYZAAAAAK0NBKZ1yRg-V1t1jgycjBNTgGjf" 
-                           data-callback='onSubmit' 
-                           data-action='submit'>Submit</button>
                         </div>
                         <div class="clear"></div>
                      </div>
